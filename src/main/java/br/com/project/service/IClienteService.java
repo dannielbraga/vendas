@@ -7,6 +7,8 @@ import java.util.List;
 public interface IClienteService {
     Cliente recuperarPorId(Integer id);
 
+    List<Cliente> recuperarTodos();
+
     Cliente salvar(Cliente cliente);
 
     Cliente atualizar(Integer id, Cliente cliente);

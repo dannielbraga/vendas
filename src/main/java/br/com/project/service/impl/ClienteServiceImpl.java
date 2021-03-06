@@ -25,6 +25,11 @@ public class ClienteServiceImpl implements IClienteService {
     }
 
     @Override
+    public List<Cliente> recuperarTodos() {
+        return this.clienteRepository.findAll();
+    }
+
+    @Override
     public Cliente salvar(Cliente cliente) {
         return this.clienteRepository.save(cliente);
     }

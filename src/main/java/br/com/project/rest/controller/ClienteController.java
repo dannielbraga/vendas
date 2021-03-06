@@ -22,6 +22,12 @@ public class ClienteController {
         return new ResponseEntity<>(cliente, HttpStatus.OK);
     }
 
+    @GetMapping
+    public ResponseEntity<List<Cliente>> recuperarTodos(){
+        List<Cliente> clientes = this.clienteService.recuperarTodos();
+        return new ResponseEntity<>(clientes, HttpStatus.OK);
+    }
+
     @PostMapping
     public ResponseEntity<Cliente> salvar(@Valid @RequestBody Cliente cliente){
         return new ResponseEntity<>(this.clienteService.salvar(cliente), HttpStatus.CREATED);
@@ -39,10 +45,10 @@ public class ClienteController {
         return new ResponseEntity<>(this.clienteService.atualizar(id, cliente), HttpStatus.OK);
     }
 
-  @GetMapping("/obterPorFiltro")
-  public ResponseEntity<List<Cliente>> findList(Cliente clienteFiltro){
-      List<Cliente> clientes = this.clienteService.buscar(clienteFiltro);
-      return new ResponseEntity<>(clientes, HttpStatus.OK);
-  }
+    @GetMapping("/obterPorFiltro")
+    public ResponseEntity<List<Cliente>> findList(Cliente clienteFiltro){
+        List<Cliente> clientes = this.clienteService.buscar(clienteFiltro);
+        return new ResponseEntity<>(clientes, HttpStatus.OK);
+    }
 }
 
