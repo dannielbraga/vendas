@@ -4,7 +4,7 @@ import br.com.project.domain.entity.Produto;
 
 import java.util.List;
 
-public interface ProdutoService {
+public interface IProdutoService {
     Produto recuperarPorId(Integer id);
 
     Produto salvar(Produto produto);

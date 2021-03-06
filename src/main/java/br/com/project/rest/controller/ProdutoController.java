@@ -1,7 +1,7 @@
 package br.com.project.rest.controller;
 
 import br.com.project.domain.entity.Produto;
-import br.com.project.service.ProdutoService;
+import br.com.project.service.IProdutoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,7 +14,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @RequestMapping("/produtos")
 public class ProdutoController {
-  private final ProdutoService produtoService;
+  private final IProdutoService produtoService;
 
   @GetMapping("{id}")
   public ResponseEntity<Produto> recuperarPorId(@PathVariable("id") Integer id){

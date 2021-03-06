@@ -2,7 +2,7 @@ package br.com.project.service.impl;
 
 import br.com.project.domain.entity.Produto;
 import br.com.project.domain.repository.ProdutoRepository;
-import br.com.project.service.ProdutoService;
+import br.com.project.service.IProdutoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.ExampleMatcher;
@@ -14,7 +14,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class ProdutoServiceImpl implements ProdutoService {
+public class ProdutoServiceImpl implements IProdutoService {
     private final ProdutoRepository produtoRepository;
 
     @Override

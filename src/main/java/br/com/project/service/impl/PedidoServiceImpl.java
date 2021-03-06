@@ -12,7 +12,7 @@ import br.com.project.domain.repository.ProdutoRepository;
 import br.com.project.exception.RegraNegocioException;
 import br.com.project.rest.dto.ItemPedidoDTO;
 import br.com.project.rest.dto.PedidoDTO;
-import br.com.project.service.PedidoService;
+import br.com.project.service.IPedidoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -23,7 +23,7 @@ import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
-public class PedidoServiceImpl implements PedidoService {
+public class PedidoServiceImpl implements IPedidoService {
 
   private final PedidoRepository pedidoRepository;
   private final ClienteRepository clienteRepository;
