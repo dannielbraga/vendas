@@ -27,8 +27,6 @@ d
 4src/main/java/br/com/project/rest/dto/PedidoDTO.java,6/4/64e40e6cae047d89d19f34f6f159274c8f79434e
 r
 Bsrc/main/java/br/com/project/rest/controller/PedidoController.java,f/9/f9114f47aa7f5a33c3bcc858244760209df4cfa8
-g
-7src/main/java/br/com/project/service/PedidoService.java,1/3/13e3380edbfb37f31cc32d6f79d77d546ff471b7
 p
 @src/main/java/br/com/project/service/impl/PedidoServiceImpl.java,0/d/0d7aa3f04ea7e903193092cd799c3f7b7d22ccbc
 h
@@ -39,3 +37,14 @@ _
 /src/main/java/br/com/project/rest/ApiErros.java,f/b/fb038b438a1f4670ff18784bce03891b52155881
 u
 Esrc/main/java/br/com/project/rest/controller/AppControllerAdvice.java,6/9/694a53cf79fb12f98aa871b71d8c50bc51f32f5c
+i
+9src/main/java/br/com/project/service/IProdutoService.java,7/1/71dc98b4c57ff1c0aac3b3ef6362bc073165b371
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+i
+9src/main/java/br/com/project/service/IClienteService.java,7/d/7de4e4af74d5db7e1c47c63f5002fcb1ea01ee05
+q
+Asrc/main/java/br/com/project/service/impl/ClienteServiceImpl.java,9/3/93662e74abb1d6fcbca27572676a08affcb15078
+g
+7src/main/java/br/com/project/config/SecurityConfig.java,3/3/339497739613f2ef6ee939e6f42fa383b023355a

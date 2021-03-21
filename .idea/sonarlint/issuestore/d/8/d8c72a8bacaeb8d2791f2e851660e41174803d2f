@@ -1,13 +1,9 @@
 
-L
-java:S22018"/The return value of "orElseThrow" must be used.(µ‚íµ8Æ„¹¬ö.
-\
-java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(ú»Ú8³•Üªö.
-z
-java:S1192"XDefine a constant instead of duplicating this literal "Cliente nÃ£o encontrado" 3 times.(•åüìüÿÿÿÿ8Æ„¹¬ö.
-Q
-java:S2201+"/The return value of "orElseThrow" must be used.(•åüìüÿÿÿÿ8Æ„¹¬ö.
-]
-java:S4684<"@Replace this persistent entity with a simple POJO or DTO object.(¿’÷ì8Ú£¿«ö.
+H
+java:S1452%"&Remove usage of generic wildcard type.(Õ³„Íÿÿÿÿÿ8Šßòà/
 b
-java:S46841"@Replace this persistent entity with a simple POJO or DTO object.(¥šşøÿÿÿÿ8ïáæªö.
+java:S4684 "@Replace this persistent entity with a simple POJO or DTO object.(ş‘×âüÿÿÿÿ8Šßòà/
+b
+java:S46841"@Replace this persistent entity with a simple POJO or DTO object.(Ğ´“ìÿÿÿÿÿ8ïáæªö.
+]
+java:S4684,"@Replace this persistent entity with a simple POJO or DTO object.(Ë˜ˆû8Šßòà/

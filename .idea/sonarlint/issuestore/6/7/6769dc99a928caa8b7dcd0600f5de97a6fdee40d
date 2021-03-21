@@ -1,15 +1,9 @@
 
-Q
-java:S22015"/The return value of "orElseThrow" must be used.(ÀÓ§¬ûÿÿÿÿ8ÄÕ¼ıö.
 ]
-java:S46849"@Replace this persistent entity with a simple POJO or DTO object.(Ç×êß8Ú¼Äıö.
-\
-java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(¼íøm8÷½¥ıö.
-u
-java:S1192"XDefine a constant instead of duplicating this literal "Produto nÃ£o encontrado" 3 times.(£¹Ÿë8Õàşıö.
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(¡úİ8ùªÀ€/
+]
+java:S4684*"@Replace this persistent entity with a simple POJO or DTO object.(‰·ƒÉ8ùªÀ€/
 b
-java:S4684$"@Replace this persistent entity with a simple POJO or DTO object.(³Ïã…ùÿÿÿÿ8†êüıö.
-L
-java:S3740A"/Provide the parametrized type for this generic.(Öúå8ÑôËıö.
-Q
-java:S2201+"/The return value of "orElseThrow" must be used.(ÀÓ§¬ûÿÿÿÿ8¯Èşıö.
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(íÂÜ†ùÿÿÿÿ8ùªÀ€/
+H
+java:S1452$"&Remove usage of generic wildcard type.(Õ³„Íÿÿÿÿÿ8ùªÀ€/
