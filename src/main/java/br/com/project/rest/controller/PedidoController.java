@@ -14,17 +14,17 @@ import javax.validation.Valid;
 @RequestMapping("/pedidos")
 @RequiredArgsConstructor
 public class PedidoController {
-  private final IPedidoService IPedidoService;
+  private final IPedidoService iPedidoService;
 
   @PostMapping
   public ResponseEntity<Pedido> salvar(@Valid @RequestBody PedidoDTO pedidoDTO){
-    Pedido pedido = IPedidoService.salvar(pedidoDTO);
+    Pedido pedido = iPedidoService.salvar(pedidoDTO);
     return new ResponseEntity<>(pedido, HttpStatus.CREATED);
   }
 
   @GetMapping("{id}")
   public ResponseEntity<Pedido> obterPorId(@PathVariable("id") Integer id){
-    return new ResponseEntity<>(IPedidoService.obterPorId(id), HttpStatus.OK);
+    return new ResponseEntity<>(iPedidoService.obterPorId(id), HttpStatus.OK);
   }
 
 }

@@ -2,6 +2,7 @@ package br.com.project.rest.controller;
 
 import br.com.project.exception.RegraNegocioException;
 import br.com.project.rest.ApiErros;
+import org.springframework.context.support.DefaultMessageSourceResolvable;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -25,7 +26,7 @@ public class AppControllerAdvice {
   public ApiErros handleMethodNotValidException(MethodArgumentNotValidException exception){
     List<String> errors = exception.getBindingResult().getAllErrors()
             .stream()
-            .map(objectError -> objectError.getDefaultMessage())
+            .map(DefaultMessageSourceResolvable::getDefaultMessage)
             .collect(Collectors.toList());
 
     return new ApiErros(errors);
